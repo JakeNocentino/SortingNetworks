@@ -146,13 +146,6 @@ public class ComparisonNetwork {
     }
 
     /**
-     * @return
-     */
-    public ComparisonNetwork clone() {
-        return new ComparisonNetwork(this.size(), this.network);
-    }
-
-    /**
      * Overrides the toString() method to print out an accurate String representation of the
      * sorting network.
      *
